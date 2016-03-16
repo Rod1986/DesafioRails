@@ -9,8 +9,10 @@
  <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
 </head>
 <body>
-<%= render :partial => "shared/navbar" %>
-<%= yield %>
-
+	<%= render :partial => "shared/navbar" %>
+	<h1 class="jumbotron">Hola Mundo</h1>
+	<div class="container">
+	<%= yield %>
+	</div>
 </body>
 </html>
